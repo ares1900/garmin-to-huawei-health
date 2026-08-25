@@ -1,0 +1,8 @@
+# 核心依赖
+garminconnect>=0.3.11   # Garmin Connect 中国站导出（garmin_export.py）
+playwright>=1.40        # 华为导入的半自动浏览器（huawei_auto_import.py）
+requests>=2.31          # 备用登录实现（garmin_login.py）
+
+# 可选：交叉验证修改后的 FIT 文件（fit_sport_modifier.py verify）
+# 核心解析器为自研实现，不依赖 fitparse，但可用它做独立校验
+# fitparse>=1.2
