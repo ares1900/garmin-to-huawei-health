@@ -1,0 +1,29 @@
+# ---------- Python ----------
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# ---------- 个人运动数据（切勿提交！含 GPS 轨迹、心率、活动 ID）----------
+*.fit
+fit/
+fit_*/
+fit_huawei/
+fit_huawei_fixed/
+fit_variants/
+export_manifest.csv
+huawei_import_report.csv
+*.log
+
+# ---------- 华为逆向产物 / 抓包页面 / 截图 ----------
+_research/
+debug_*.html
+debug_*.py
+*.png
+*.jpg
+
+# ---------- 系统 ----------
+.DS_Store
+Thumbs.db
